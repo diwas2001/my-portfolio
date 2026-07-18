@@ -73,13 +73,13 @@ export default async function Home() {
         </p>
 
         <div className="fade-in-up delay-3 flex justify-center gap-4 mt-10">
-          <a
+          
             href="#contact"
             className="inline-block bg-[var(--accent-orange)] text-[var(--bg)] font-semibold px-8 py-3 rounded-md hover:opacity-90 transition-opacity"
           >
             Hire Me
           </a>
-          <a
+          
             href="/resume.pdf"
             download
             className="inline-block border border-[var(--accent-blue)] text-[var(--accent-blue)] px-8 py-3 rounded-md hover:bg-[var(--accent-blue)] hover:text-[var(--bg)] transition-colors"
@@ -142,7 +142,7 @@ export default async function Home() {
                 BSc Software Engineering
               </p>
               <p className="text-[var(--text-muted)] text-sm">
-                Add university name
+                University of Bedfordshire
               </p>
             </div>
           </div>
@@ -178,8 +178,8 @@ export default async function Home() {
             <div className="p-6">
               <p className="text-[var(--accent-green)] mb-3"># Interests</p>
               <ul className="text-[var(--text)] text-sm space-y-1">
-                <li>Add a hobby</li>
-                <li>Add a hobby</li>
+                <li>Listening to music</li>
+                <li>Playing online games</li>
               </ul>
             </div>
           </div>
@@ -220,7 +220,7 @@ export default async function Home() {
                 ))}
               </div>
               <p className="text-sm mt-3">{"}"}</p>
-              <a
+              
                 href={project.github}
                 target="_blank"
                 className="text-sm text-[var(--accent-cyan)] hover:underline mt-auto pt-4"
@@ -323,7 +323,7 @@ export default async function Home() {
             title="Resume"
           />
         </div>
-        <a
+        
           href="/resume.pdf"
           download
           className="inline-block mt-8 border border-[var(--accent-orange)] text-[var(--accent-orange)] px-8 py-3 rounded-md hover:bg-[var(--accent-orange)] hover:text-[var(--bg)] transition-colors"
@@ -401,7 +401,7 @@ export default async function Home() {
                 </p>
               </div>
               {cert.link && (
-                <a
+                
                   href={cert.link}
                   target="_blank"
                   className="text-sm text-[var(--accent-cyan)] hover:underline"
