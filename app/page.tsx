@@ -4,6 +4,7 @@ import { skillGroups } from "./data/skills";
 import { testimonials } from "./data/testimonials";
 import { certificates } from "./data/certificates";
 import { posts } from "./data/posts";
+import BookCall from "@/components/Bookcall";
 
 export const dynamic = "force-dynamic";
 
@@ -353,6 +354,11 @@ export default async function Home() {
           </div>
         </div>
       </section>
+
+      <div className="section-divider my-16"></div>
+
+      {/* BOOK A CALL */}
+      <BookCall />
 
       <div className="section-divider my-16"></div>
 
