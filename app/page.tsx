@@ -4,7 +4,7 @@ import { skillGroups } from "./data/skills";
 import { testimonials } from "./data/testimonials";
 import { certificates } from "./data/certificates";
 import { posts } from "./data/posts";
-import BookCall from "@/components/Bookcall";
+import BookCall from "@/components/BookCall";
 
 export const dynamic = "force-dynamic";
 

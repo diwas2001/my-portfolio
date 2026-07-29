@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import BookCall from "@/components/BookCall";
 
 export default function Admin() {
   const [password, setPassword] = useState("");
