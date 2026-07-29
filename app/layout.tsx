@@ -20,9 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${mono.variable} font-mono bg-[#0a0e14] text-[#c9d1d9] antialiased`}
-      >
+      <body className={`${mono.variable} font-mono antialiased`}>
         {children}
       </body>
     </html>
