@@ -64,13 +64,10 @@ export default async function Home() {
         <p className="text-[var(--accent-purple)] text-sm mt-3">{"}"}</p>
 
         <p className="fade-in-up delay-3 text-[var(--text)] leading-relaxed mt-10 max-w-lg mx-auto">
-          Hi, I'm Diwas Suyal. I recently completed my Bachelor's degree in
-          Software Engineering and have also completed a Master's in Data
-          Science with Analytics at the University of Hertfordshire. I am
-          passionate about software development, data science, and using
-          technology to solve real-world problems. I enjoy learning new
-          technologies, building practical projects, and continuously improving
-          my technical and problem-solving skills.
+          "Hi, I'm Diwas Suyal — a developer with a BSc in Software Engineering
+          and an MSc in Data Science & Analytics. I build cross-platform mobile
+          apps in Flutter and Dart, and work with Python and SQL on the data
+          side. Looking for my first developer role".
         </p>
 
         <div className="fade-in-up delay-3 flex justify-center gap-4 mt-10">
@@ -108,11 +105,20 @@ export default async function Home() {
               # About Me
             </p>
             <p className="text-[var(--text)] leading-relaxed">
-              I am a motivated and enthusiastic graduate with a strong interest
-              in software engineering, data analysis, machine learning, and web
-              development. I am eager to apply my knowledge in a professional
-              environment, contribute to innovative projects, and continue
-              growing as a technology professional.
+              I'm Diwas Suyal, a graduate developer focused on data analytics,
+              backed by a BSc (Hons) in Software Engineering and an MSc in Data
+              Science & Analytics from the University of Hertfordshire. I work
+              with Python and R to clean, analyse and visualise data in Jupyter
+              Notebook, and I'm comfortable writing SQL across MySQL, PostgreSQL
+              and Oracle — including a kiosk management system I built end to
+              end in Oracle APEX. That analytics work sits on a full software
+              engineering foundation. I've built cross-platform mobile
+              applications in Flutter and Dart, worked with Firebase, and
+              developed in Java, C#, C and JavaScript. I also hold a working
+              knowledge of computer networking (CCNA fundamentals), which helps
+              me understand the systems my data comes from. I'm looking for my
+              first role in London, where I can turn data into decisions people
+              can act on.
             </p>
           </div>
         </div>
