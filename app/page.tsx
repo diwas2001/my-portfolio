@@ -1,10 +1,11 @@
-import { list } from "@vercel/blob";
+﻿import { list } from "@vercel/blob";
 import { projects } from "./data/projects";
 import { skillGroups } from "./data/skills";
 import { testimonials } from "./data/testimonials";
 import { certificates } from "./data/certificates";
 import { posts } from "./data/posts";
 import BookCall from "@/components/BookCall";
+import ScrambleName from "@/components/ScrambleName";
 
 export const dynamic = "force-dynamic";
 
@@ -51,9 +52,7 @@ export default async function Home() {
           const <span className="text-[var(--accent-blue)]">developer</span> ={" "}
           {"{"}
         </p>
-        <h1 className="typing glow-text text-4xl sm:text-5xl font-bold text-[var(--accent-orange)] mx-auto">
-          Diwas_Suyal
-        </h1>
+        <ScrambleName />
         <p className="fade-in-up delay-2 mt-6 text-lg">
           <span className="text-[var(--accent-purple)]">title</span>
           <span className="text-[var(--accent-cyan)]">:</span>{" "}
@@ -64,7 +63,7 @@ export default async function Home() {
         <p className="text-[var(--accent-purple)] text-sm mt-3">{"}"}</p>
 
         <p className="fade-in-up delay-3 text-[var(--text)] leading-relaxed mt-10 max-w-lg mx-auto">
-          "Hi, I'm Diwas Suyal — a developer with a BSc in Software Engineering
+          "Hi, I'm Diwas Suyal â€” a developer with a BSc in Software Engineering
           and an MSc in Data Science & Analytics. I build cross-platform mobile
           apps in Flutter and Dart, and work with Python and SQL on the data
           side. Looking for my first developer role".
@@ -110,7 +109,7 @@ export default async function Home() {
               Science & Analytics from the University of Hertfordshire. I work
               with Python and R to clean, analyse and visualise data in Jupyter
               Notebook, and I'm comfortable writing SQL across MySQL, PostgreSQL
-              and Oracle — including a kiosk management system I built end to
+              and Oracle â€” including a kiosk management system I built end to
               end in Oracle APEX. That analytics work sits on a full software
               engineering foundation. I've built cross-platform mobile
               applications in Flutter and Dart, worked with Firebase, and
@@ -282,7 +281,7 @@ export default async function Home() {
                 target="_blank"
                 className="text-sm text-[var(--accent-cyan)] hover:underline mt-auto pt-4"
               >
-                → view_on_github()
+                â†’ view_on_github()
               </a>
             </div>
           ))}
@@ -459,7 +458,7 @@ export default async function Home() {
                   {cert.title}
                 </p>
                 <p className="text-[var(--text-muted)] text-sm">
-                  {cert.issuer} · {cert.date}
+                  {cert.issuer} Â· {cert.date}
                 </p>
               </div>
               {cert.link && (
@@ -468,7 +467,7 @@ export default async function Home() {
                   target="_blank"
                   className="text-sm text-[var(--accent-cyan)] hover:underline"
                 >
-                  view →
+                  view â†’
                 </a>
               )}
             </div>
@@ -547,3 +546,4 @@ function ContactForm() {
     </form>
   );
 }
+
