@@ -145,9 +145,14 @@ export default async function Home() {
                 className="logo-reveal logo-delay-1 logo-badge h-12 w-12 object-contain bg-white rounded-md p-1"
               />
               <div>
-                <p className="text-[var(--accent-blue)] font-semibold">
+                <a
+                  href="https://www.herts.ac.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--accent-blue)] font-semibold hover:underline"
+                >
                   MSc Data Science with Analytics
-                </p>
+                </a>
                 <p className="text-[var(--text-muted)] text-sm">
                   University of Hertfordshire
                 </p>
@@ -162,9 +167,14 @@ export default async function Home() {
                 className="logo-reveal logo-delay-2 logo-badge h-12 w-12 object-contain bg-white rounded-md p-1"
               />
               <div>
-                <p className="text-[var(--accent-blue)] font-semibold">
+                <a
+                  href="https://www.beds.ac.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--accent-blue)] font-semibold hover:underline"
+                >
                   BSc Software Engineering
-                </p>
+                </a>
                 <p className="text-[var(--text-muted)] text-sm">
                   University of Bedfordshire
                 </p>
@@ -179,9 +189,14 @@ export default async function Home() {
                 className="logo-reveal logo-delay-3 logo-badge h-12 w-12 object-contain bg-white rounded-md p-1"
               />
               <div>
-                <p className="text-[var(--accent-blue)] font-semibold">
+                <a
+                  href="https://globalcollege.edu.np/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--accent-blue)] font-semibold hover:underline"
+                >
                   +2 (Higher Secondary Education)
-                </p>
+                </a>
                 <p className="text-[var(--text-muted)] text-sm">
                   Global College of Management
                 </p>
