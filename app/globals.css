@@ -170,3 +170,24 @@ body {
   transform: scale(1.1) rotate(-4deg);
   box-shadow: 0 0 20px rgba(59, 130, 246, 0.35);
 }
+
+@keyframes flagWave {
+  0%, 100% { transform: perspective(200px) rotateY(0deg) skewY(0deg); }
+  25% { transform: perspective(200px) rotateY(-12deg) skewY(-1.5deg); }
+  50% { transform: perspective(200px) rotateY(0deg) skewY(0deg); }
+  75% { transform: perspective(200px) rotateY(12deg) skewY(1.5deg); }
+}
+
+.flag-wave {
+  animation: flagWave 3s ease-in-out 3;
+  transform-origin: left center;
+  transition: box-shadow 0.3s ease;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+.flag-wave:hover {
+  animation: flagWave 3s ease-in-out infinite;
+  box-shadow: 0 0 14px rgba(59, 130, 246, 0.5);
+}
+.flag-delay-1 { animation-delay: 0.1s; }
+.flag-delay-2 { animation-delay: 0.5s; }

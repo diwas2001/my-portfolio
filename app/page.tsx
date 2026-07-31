@@ -217,8 +217,10 @@ export default async function Home() {
             <div className="p-6">
               <p className="text-[var(--accent-green)] mb-3"># Languages</p>
               <ul className="text-[var(--text)] text-sm space-y-1">
-                <li>English</li>
-                <li>Nepali</li>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <li className="flex items-center gap-3"><img src="https://flagcdn.com/w40/gb.png" alt="United Kingdom flag" className="flag-wave flag-delay-1 h-5 w-8 object-cover" />English</li>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <li className="flex items-center gap-3"><img src="https://flagcdn.com/w40/np.png" alt="Nepal flag" className="flag-wave flag-delay-2 h-5 w-8 object-contain" />Nepali</li>
               </ul>
             </div>
           </div>
