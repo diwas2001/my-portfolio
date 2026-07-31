@@ -133,24 +133,59 @@ export default async function Home() {
             </span>
           </div>
           <div className="p-8">
-            <p className="text-[var(--accent-green)] mb-4 text-lg">
+            <p className="text-[var(--accent-green)] mb-6 text-lg">
               # Education
             </p>
-            <div className="mb-4">
-              <p className="text-[var(--accent-blue)] font-semibold">
-                MSc Data Science with Analytics
-              </p>
-              <p className="text-[var(--text-muted)] text-sm">
-                University of Hertfordshire
-              </p>
+
+            <div className="flex items-center gap-4 mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logos/hertfordshire.png"
+                alt="University of Hertfordshire logo"
+                className="logo-reveal logo-delay-1 logo-badge h-12 w-12 object-contain bg-white rounded-md p-1"
+              />
+              <div>
+                <p className="text-[var(--accent-blue)] font-semibold">
+                  MSc Data Science with Analytics
+                </p>
+                <p className="text-[var(--text-muted)] text-sm">
+                  University of Hertfordshire
+                </p>
+              </div>
             </div>
-            <div>
-              <p className="text-[var(--accent-blue)] font-semibold">
-                BSc Software Engineering
-              </p>
-              <p className="text-[var(--text-muted)] text-sm">
-                University of Bedfordshire
-              </p>
+
+            <div className="flex items-center gap-4 mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logos/bedfordshire.png"
+                alt="University of Bedfordshire logo"
+                className="logo-reveal logo-delay-2 logo-badge h-12 w-12 object-contain bg-white rounded-md p-1"
+              />
+              <div>
+                <p className="text-[var(--accent-blue)] font-semibold">
+                  BSc Software Engineering
+                </p>
+                <p className="text-[var(--text-muted)] text-sm">
+                  University of Bedfordshire
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logos/global-college.webp"
+                alt="Global College of Management logo"
+                className="logo-reveal logo-delay-3 logo-badge h-12 w-12 object-contain bg-white rounded-md p-1"
+              />
+              <div>
+                <p className="text-[var(--accent-blue)] font-semibold">
+                  +2 (Higher Secondary Education)
+                </p>
+                <p className="text-[var(--text-muted)] text-sm">
+                  Global College of Management
+                </p>
+              </div>
             </div>
           </div>
         </div>
