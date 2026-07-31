@@ -191,3 +191,24 @@ body {
 }
 .flag-delay-1 { animation-delay: 0.1s; }
 .flag-delay-2 { animation-delay: 0.5s; }
+
+@keyframes icoBob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+@keyframes icoWig {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-9deg); }
+  75% { transform: rotate(9deg); }
+}
+.ico-bob {
+  animation: icoBob 1.8s ease-in-out 4;
+  flex-shrink: 0;
+}
+.ico-bob:hover { animation: icoBob 1.8s ease-in-out infinite; }
+.ico-wig {
+  animation: icoWig 1.6s ease-in-out 4;
+  transform-origin: center;
+  flex-shrink: 0;
+}
+.ico-wig:hover { animation: icoWig 1.6s ease-in-out infinite; }

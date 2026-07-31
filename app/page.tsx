@@ -236,8 +236,8 @@ export default async function Home() {
             <div className="p-6">
               <p className="text-[var(--accent-green)] mb-3"># Interests</p>
               <ul className="text-[var(--text)] text-sm space-y-1">
-                <li>Listening to music</li>
-                <li>Playing online games</li>
+                <li className="flex items-center gap-3"><svg className="ico-bob" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-purple)" strokeWidth="2" strokeLinecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>Listening to music</li>
+                <li className="flex items-center gap-3"><svg className="ico-wig" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" strokeWidth="2" strokeLinecap="round"><rect x="2" y="6" width="20" height="12" rx="5"/><line x1="6" y1="11" x2="10" y2="11"/><line x1="8" y1="9" x2="8" y2="13"/><circle cx="15" cy="12" r="1"/><circle cx="18" cy="10" r="1"/></svg>Playing online games</li>
               </ul>
             </div>
           </div>
