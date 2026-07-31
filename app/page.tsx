@@ -62,7 +62,7 @@ export default async function Home() {
         </p>
         <p className="text-[var(--accent-purple)] text-sm mt-3">{"}"}</p>
 
-        <p className="fade-in-up delay-3 text-[var(--text)] leading-relaxed mt-10 max-w-lg mx-auto">
+        <p className="prose-sans fade-in-up delay-3 text-[var(--text)] leading-relaxed mt-10 max-w-lg mx-auto">
           "Hi, I'm Diwas Suyal â€” a developer with a BSc in Software Engineering
           and an MSc in Data Science & Analytics. I build cross-platform mobile
           apps in Flutter and Dart, and work with Python and SQL on the data
@@ -103,7 +103,7 @@ export default async function Home() {
             <p className="text-[var(--accent-green)] mb-3 text-lg">
               # About Me
             </p>
-            <p className="text-[var(--text)] leading-relaxed">
+            <p className="prose-sans text-[var(--text)] leading-relaxed">
               I'm Diwas Suyal, a graduate developer focused on data analytics,
               backed by a BSc (Hons) in Software Engineering and an MSc in Data
               Science & Analytics from the University of Hertfordshire. I work
@@ -353,7 +353,7 @@ export default async function Home() {
               <p className="text-[var(--accent-blue)] font-semibold">
                 {post.title}
               </p>
-              <p className="text-[var(--text)] text-sm mt-2">{post.excerpt}</p>
+              <p className="prose-sans text-[var(--text)] text-sm mt-2">{post.excerpt}</p>
             </div>
           ))}
         </div>
@@ -430,7 +430,7 @@ export default async function Home() {
               key={t.name + i}
               className={`fade-in-up delay-${(i % 3) + 1} terminal p-6`}
             >
-              <p className="text-[var(--text)] text-sm leading-relaxed">
+              <p className="prose-sans text-[var(--text)] text-sm leading-relaxed">
                 "{t.quote}"
               </p>
               <p className="text-[var(--accent-blue)] font-semibold mt-4">

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
+import { JetBrains_Mono, Inter } from "next/font/google";
 import "./globals.css";
 
 const mono = JetBrains_Mono({
@@ -8,8 +8,14 @@ const mono = JetBrains_Mono({
   variable: "--font-mono",
 });
 
+const sans = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-sans",
+});
+
 export const metadata: Metadata = {
-  title: "Diwas Suyal — Portfolio",
+  title: "Diwas Suyal \u2014 Portfolio",
   description: "Junior Software Developer portfolio",
 };
 
@@ -20,7 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${mono.variable} font-mono antialiased`}>
+      <body
+        className={`${mono.variable} ${sans.variable} font-mono antialiased`}
+      >
         {children}
       </body>
     </html>

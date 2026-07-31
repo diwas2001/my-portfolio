@@ -212,3 +212,9 @@ body {
   flex-shrink: 0;
 }
 .ico-wig:hover { animation: icoWig 1.6s ease-in-out infinite; }
+
+.prose-sans {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.7;
+}
