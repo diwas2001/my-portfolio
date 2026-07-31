@@ -140,3 +140,33 @@ body {
   border-color: var(--accent-blue);
   transform: translateY(-4px);
 }
+
+@keyframes logoReveal {
+  0% {
+    opacity: 0;
+    transform: rotate(-25deg) scale(0.4) translateX(-30px);
+  }
+  60% {
+    opacity: 1;
+    transform: rotate(8deg) scale(1.08) translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1) translateX(0);
+  }
+}
+
+.logo-reveal {
+  animation: logoReveal 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+.logo-delay-1 { animation-delay: 0.1s; }
+.logo-delay-2 { animation-delay: 0.35s; }
+.logo-delay-3 { animation-delay: 0.6s; }
+
+.logo-badge {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logo-badge:hover {
+  transform: scale(1.1) rotate(-4deg);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.35);
+}
